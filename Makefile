@@ -2,7 +2,7 @@ main.js: main.ts
 	tsc main.ts
 
 clean:
-	@$(RM) *.js 2>/dev/null || true
+	@$(RM) main.js app.component.js 2>/dev/null || true
 
 run:
 	node main.js

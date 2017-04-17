@@ -2,6 +2,7 @@ import { AppComponent } from './app.component';
 import { NSpire } from './nspire';
 
 function main() {
+    // is there a dedicated API to get integer part of a real number?
     let r = Math.ceil(Math.random() * 10 + 1);
     console.log("** main **" + r);
 

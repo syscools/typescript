@@ -2,7 +2,12 @@ import { AppComponent } from './app.component';
 import { NSpire } from './nspire';
 
 function main() {
-    console.log("** main **");
+    let r = Math.ceil(Math.random() * 10 + 1);
+    console.log("** main **" + r);
+
+    if (r < 5) {
+        let obj = new NSpire();
+    }
 
     setTimeout(function () {
         let obj = new AppComponent();

@@ -1,4 +1,5 @@
 import { AppComponent } from './app.component';
+import { NSpire } from './nspire';
 
 function main() {
     console.log("** main **");
